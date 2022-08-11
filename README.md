@@ -25,6 +25,8 @@ Starting input:
   (1) tsv-file containing all observations, i.e. od_id | origin | destination | link_id 1 | ... | link_id last
   
   (2) a template bioroute configuration file
+  
+Steps:
 
 ---> write bioroute configuration files for all observations (100 OD pairs per config file) with write_config_file.py
 
