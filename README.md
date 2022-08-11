@@ -60,9 +60,4 @@ q(i) = a * b(i) => ln(k_i/q(i)) = ln(k_i/(a * b(i)) = ln(k_i) - ln(a) - ln(b(i))
 
 and -ln(a) is a constant that appears in the utility function for all alternatives, and can thus be omitted. The utilities may therefore be specified as above.
 
-
-
-
- 
-
-
+Unfortunately, I am not sure I understand the expanded path size term just yet.
