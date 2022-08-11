@@ -18,7 +18,7 @@ Prerequisites:
       (1.1) import bioroute-analysis as a Maven project to Eclipse
       (1.2) import bioroute as a Maven project to Eclipse (this is the adapted version of Gunnar Floetteroed's original bioroute repository https://github.com/gunnarfloetteroed/java.git)
   
-  (2) download the python scripts 
+  (2) download the python scripts in the BiorouteAnalysis folder.
 
 Starting input: 
 
@@ -30,8 +30,8 @@ Steps:
 
 ---> write bioroute configuration files for all observations (100 OD pairs per config file) with write_config_file.py
 
----> run bioroute using the code adapted from Gunnar's repository; the output are xml-files containing all routes
-     (one further input that is need here is the network!)
+---> run bioroute using the code adapted from Gunnar Floetteroed's repository; the output are xml-files containing all routes
+     (one further input that is need here is the network which needs to be stored in the correct folder)
 
 ---> use xml_to_csv.py to convert the routes to a csv format for the analysis
 
