@@ -48,6 +48,21 @@ If you use this as an input for an (Expanded) Path Size Logit Model consider the
 (2) Sobhani, A., Aliabadi, H.A., Farooq, B., 2019. Metropolis-Hasting based Expanded Path Size Logit model for cyclists’ route choice using GPS data. International journal of transportation science and technology 8 (2), 161-175.
 
 
+In particular, the main difference to other approaches is the inclusion of an additional correction term defined by the frequency k_i (i.e. the number of times a certain alternative was drawn) and the normalised weights b(i) (which are supposed to be proportional to the stationary probability). The utility function should read
 
+U_i = V_i + beta_ps * PS_i + ln(k_i/b(i))
+
+where V_i is the deterministic part of the utility function, PS_i is the path size correction term and ln(k_i/b(i)) is a sampling correction term.
+
+As a small remark (so that I don't forget), in reference (1) this term comes as ln(k_i/q(i)) where q(i) is the stationary probability of state i. Since the assumption is that
+
+q(i) = a * b(i) => ln(k_i/q(i)) = ln(k_i/(a * b(i)) = ln(k_i) - ln(a) - ln(b(i))
+
+and -ln(a) is a constant that appears in the utility function for all alternatives, and can thus be omitted. The utilities may therefore be specified as above.
+
+
+
+
+ 
 
 
