@@ -14,7 +14,6 @@ More details:
 Prerequisites:
 
   (1) fork the repository bioroute_analysis (https://github.com/MatteoFel/bioroute_analysis.git) and 
-      
       (1.1) import bioroute-analysis as a Maven project to Eclipse
       (1.2) import bioroute as a Maven project to Eclipse (this is the adapted version of Gunnar Floetteroed's original bioroute repository https://github.com/gunnarfloetteroed/java.git)
   
