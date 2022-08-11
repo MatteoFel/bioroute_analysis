@@ -14,12 +14,15 @@ More details:
 Prerequisites:
 
   (1) fork the repository bioroute_analysis (https://github.com/MatteoFel/bioroute_analysis.git) and import it as a Maven project to Eclipse
+  
   (2) fork the repository floetteroed_bioroute, this is the adapted version (https://github.com/MatteoFel/floetteroed_bioroute.git) and import it as a Maven project to Eclipse
+  
   (3) download the python scripts 
 
 Starting input: 
 
   (1) tsv-file containing all observations, i.e. od_id | origin | destination | link_id 1 | ... | link_id last
+  
   (2) a template bioroute configuration file
 
 ---> write bioroute configuration files for all observations (100 OD pairs per config file) with write_config_file.py
