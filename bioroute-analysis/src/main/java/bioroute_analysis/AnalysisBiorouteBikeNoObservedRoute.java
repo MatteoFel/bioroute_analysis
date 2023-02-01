@@ -95,7 +95,6 @@ public class AnalysisBiorouteBikeNoObservedRoute {
 			out.write("internal_id_" + String.valueOf(i) +  ",");
 			out.write("number_of_links_" + String.valueOf(i) +  ",");
 			out.write("length_" + String.valueOf(i) +  ",");
-			out.write("overlap " + String.valueOf(i) + "," );
 			out.write("path_size_" + String.valueOf(i) + "," );
 			out.write("ln_path_size_" + String.valueOf(i) + "," );
 			out.write("frequency_" + String.valueOf(i) + ",");
